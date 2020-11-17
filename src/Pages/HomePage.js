@@ -21,7 +21,7 @@ function Home() {
                           autoStart: true,
                         }} onInit={(typewriter) => {
                           typewriter.pauseFor(1500)
-                        typewriter.typeString(`"selected"`).callFunction(() => {})
+                        typewriter.typeString(`'selected'`).callFunction(() => {})
                         .start();
                         }}/>)</h1>
             <div className="home_intro_container animate__animated animate__fadeInLeft">

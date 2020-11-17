@@ -1,13 +1,16 @@
 import React from 'react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiDownload } from "react-icons/bi";
+import Typewriter from 'typewriter-effect';
 
 
-function Contact() {
-  
+function About() {
+ 
   return (
-    <div className="page page--contact">
-      hey
-    </div>     
+    <div className="content">
+    
+</div>
   );
 }
 
-export default Contact;
+export default About;

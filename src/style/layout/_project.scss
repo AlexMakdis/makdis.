@@ -2,6 +2,15 @@
     display: flex;
     flex-direction: row;
     margin: 40px 0;
+    &_purple{
+        p{
+        color: $purple!important;
+        }
+    }
+    &_grey{
+        color: $light;
+        opacity: .2;
+    }
     
     &_background{
         padding: 50px;

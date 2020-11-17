@@ -39,9 +39,9 @@ function Nav() {
                     </NavLink>
                 </li>
                 <li className="nav_links_logo">
-                    <NavLink exact to="/contact" activeClassName="nav_links_active">
+                    <a href="mailto:alexmakdis@outlook.com">
                         <h1>contact( )</h1>
-                    </NavLink>
+                    </a>
                 </li>
                 <li className="nav_links_logo">
                     <a href="https://www.linkedin.com/in/alex-makdis-afrim-351914170/" rel="noreferrer" target="_blank" >

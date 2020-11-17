@@ -1,3 +1,16 @@
+@media screen and (min-width: 1028px){
+    .home_container{
+        margin-left: 42% !important;
+    }
+    
+}
+@media screen and (max-width: 550px){
+    .project{
+        flex-wrap: wrap;
+    }
+    
+}
+
 .home {
     &_button{
         button{
@@ -41,12 +54,12 @@
         }
     }
     &_container {
-        margin-left: 42% !important;
         margin-top: 20vh;
     }
     &_title{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         font-size: 3em;
         margin-bottom: 25px;
         color: $purple;

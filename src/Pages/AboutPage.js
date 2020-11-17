@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiDownload } from "react-icons/bi";
 import Typewriter from 'typewriter-effect';
+import Pdf from '../components/curriculum_vitae_Alex-Makdis-Afrim.pdf'
 
 
 function About() {
@@ -18,7 +19,7 @@ function About() {
                           autoStart: true,
                         }} onInit={(typewriter) => {
                           typewriter.pauseFor(1500)
-                        typewriter.typeString(`"me"`).callFunction(() => {})
+                        typewriter.typeString(`'me'`).callFunction(() => {})
                         .start();
                         }}/>)</h1>
                         </div>
@@ -27,7 +28,7 @@ function About() {
             
             <div className="home_intro_name about_intro">
                 <h1><a href="https://www.linkedin.com/in/alex-makdis-afrim-351914170/"><FaLinkedin/></a><a href="https://github.com/AlexMakdis"><FaGithub/></a></h1><p className="download_cv">Download mijn cv</p>
-                <div className="home_button about_button"><a href="../components/curriculum_vitae_Alex-Makdis-Afrim.pdf"><button><p>curriculum vitae </p><BiDownload/></button></a></div>
+                <div className="home_button about_button"><a href={Pdf} download={Pdf}><button><p>curriculum vitae </p><BiDownload/></button></a></div>
             </div>
             <div className="about_me">
                 <p>Ik ben een Full-stack Development student aan Arteveldehogeschool in Gent. Nieuwe webtechnologieën leren en gebruiken om projecten te optimaliseren is wat ik voor doel heb.</p>
