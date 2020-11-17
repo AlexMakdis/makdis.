@@ -5,12 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 
 function About() {
-  function fadeFunction () {
-    const fadeDoc = document.getElementById('fade');
-    fadeDoc.classList.add('animate__fadeOutLeft');
-    
-  }
-
+ 
   return (
     <div className="content">
        <div className="container home_container animate__animated" id="fade">

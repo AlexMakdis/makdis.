@@ -1,0 +1,69 @@
+.project{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+    
+    &_background{
+        padding: 50px;
+        width: fit-content;
+        background-color: $purple;
+        border-radius: 100%;
+        transition: all .4s ease-out;
+    }
+    &_info{
+        height: fit-content;
+        margin: auto 0px auto 40px;
+        h1{
+            color: $purple;
+        }
+    }
+    &_tools{
+        opacity: 0.2;
+        margin-bottom: 10px;
+    }
+}
+.project_description{
+    transition: all .4s ease-out;
+}
+.project:hover{
+    .project_description{
+        color: $purple;
+        transition: all .4s ease-out;
+    }
+    .pablo,.pgm,.sock{
+        transform: scale(1.2);
+        transition: all .4s ease-out;
+    }
+    .project_background{
+        box-shadow: 0px 0px 15px 3px $light;
+        transition: all .4s ease-out;
+    }
+}
+
+.pablo{
+    background-image: url('../../img/pablo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 103px;
+    height: 126.5px;
+    transition: all .4s ease-out;
+}
+.pgm{
+    background-image: url('../../img/pgm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 103px;
+    height: 126.5px;
+    transition: all .4s ease-out;
+}
+.sock{
+    svg{
+        color: $light;
+        width: 103px;
+        height: 100%;
+    }
+    transition: all .4s ease-out;
+}
+
