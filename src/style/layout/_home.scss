@@ -45,6 +45,8 @@
         margin-top: 20vh;
     }
     &_title{
+        display: flex;
+        flex-direction: row;
         font-size: 3em;
         margin-bottom: 25px;
         color: $purple;
@@ -68,4 +70,8 @@
         }
     }
     
+}
+
+.typeSelected{
+    color: $yellow!important;
 }
