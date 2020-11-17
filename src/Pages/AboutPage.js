@@ -31,7 +31,7 @@ function About() {
             <div className="home_intro_container animate__animated animate__fadeInLeft">
             
             <div className="home_intro_name about_intro">
-                <h1><FaLinkedin/><FaGithub/></h1><p className="download_cv">Download mijn cv</p>
+                <h1><a href="https://www.linkedin.com/in/alex-makdis-afrim-351914170/"><FaLinkedin/></a><a href="https://github.com/AlexMakdis"><FaGithub/></a></h1><p className="download_cv">Download mijn cv</p>
                 <div className="home_button about_button"><a href="../components/curriculum_vitae_Alex-Makdis-Afrim.pdf"><button><p>curriculum vitae </p><BiDownload/></button></a></div>
             </div>
             <div className="about_me">

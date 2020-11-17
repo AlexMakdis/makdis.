@@ -9,7 +9,15 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
+        a{
+            color: $purple;
+            width: fit-content;
+            transition: all .4s ease-out;
+        }
+        a:hover{
+            color: $light;
+            transition: all .4s ease-out;
+        }
         svg {
             margin-right: 10px;
         }
