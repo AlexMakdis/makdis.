@@ -5,6 +5,7 @@ function Contact() {
   
   return (
     <div className="page page--contact">
+      hey
     </div>     
   );
 }

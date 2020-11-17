@@ -6,8 +6,7 @@ function Home() {
 
   return (
     <div className="content">
-       <div className="me">
-       </div>
+       
   </div>
   );
 }
