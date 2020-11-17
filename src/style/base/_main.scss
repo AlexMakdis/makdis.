@@ -9,7 +9,6 @@ html{
     overflow-x: hidden;
 }
 
-p,
 h1,
 h2,
 h3,
@@ -22,6 +21,10 @@ button,
 form,
 input {
     font-family: sofia-pro, sans-serif;
+}
+p{
+    font-family: Roboto Mono,monospace;
+    color: $light;
 }
 
 .me {

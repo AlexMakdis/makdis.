@@ -1,0 +1,71 @@
+.home {
+    &_button{
+        button{
+            margin-top: 10px;
+            background-color: $purple;
+            display: flex;
+            flex-direction: row;    
+            width: fit-content;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: none;
+            transition: all .4s ease-out;
+            p{
+                color: $bg;
+                font-weight: 800;
+                font-size: 17px;
+            }
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: $light;
+            transition: all .4s ease-out;
+
+            p{
+                color: $purple;
+                transition: all .4s ease-out;
+
+            }
+            svg{
+                color: $purple;
+                transform: scale(1.4);
+                transition: all .4s ease-out;
+            }
+        }
+        svg{
+            transition: all .4s ease-out;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 10px;
+            color: $bg;
+        }
+    }
+    &_container {
+        margin-left: 42% !important;
+        margin-top: 20vh;
+    }
+    &_title{
+        font-size: 3em;
+        margin-bottom: 25px;
+        color: $purple;
+        span{
+            color: $light;
+        }
+    }
+    &_intro{
+        &_job{
+            margin: 10px 0;
+        }
+        &_name{
+            color: $purple;
+            font-weight: 800;
+        }
+        &_description{
+            margin-top: 20px;
+        }
+        &_container{
+            animation-delay: 0.8s;
+        }
+    }
+    
+}

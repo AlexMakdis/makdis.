@@ -2,7 +2,7 @@
     padding: 1rem;
     a{
         color: $purple;
-        transition-duration: 0.4s;
+        transition: all .4s ease-out;
     }
     &_links {
         line-height: 1;
@@ -51,7 +51,7 @@
                     background-color: $purple;
                     margin-top: 14px;
                     margin-left: 2px;
-                    transition-duration: 0.4s;
+                    transition: all .4s ease-out;
                 }
             }
         }
@@ -59,7 +59,7 @@
         &_logo:hover {
             a {
                 color: $light;
-                transition-duration: 0.4s;
+                transition: all .4s ease-out;
                 .dot {
                     width: 6px;
                     height: 6px;
@@ -68,7 +68,7 @@
                     margin-top: 14px;
                     margin-left: 30px;
                     box-shadow: 0px 0px 15px 22px rgba(104,42,233,0.74);
-                    transition-duration: 0.4s;
+                    transition: all .4s ease-out;
                 }
             }
         }
