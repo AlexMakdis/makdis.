@@ -26,8 +26,8 @@ function Home() {
                         }}/>)</h1>
             <div className="home_intro_container animate__animated animate__fadeInLeft">
             <p className="home_intro_name">Alex Makdis Afrim</p>
-            <p className="home_intro_job">Full-stack developper</p>
-            <p className="home_intro_description">Welcome to my personal website. </p>
+            <p className="home_intro_job">Front-end developper <br></br><br></br> Momenteel stagair bij The Reference.</p>
+            <p className="home_intro_description">Welcome to my personal website. </p><br></br>
             <div className="home_button"><DelayLink delay={1000} to="/about" clickAction={fadeFunction}><button type="submit"><p>go to about </p><FaArrowRight/></button></DelayLink></div>
             </div>
           </div>
