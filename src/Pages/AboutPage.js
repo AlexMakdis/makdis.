@@ -31,7 +31,7 @@ function About() {
                 <div className="home_button about_button"><a href={Pdf} download={Pdf}><button><p>curriculum vitae </p><BiDownload/></button></a></div>
             </div>
             <div className="about_me">
-                <p>Ik ben een Front-end Development student aan Arteveldehogeschool in Gent. Als doel heb ik voor ogen nieuwe webtechnologieën leren en gebruiken om projecten te optimaliseren.</p>
+                <p>Ik ben een Front-end Development student aan Arteveldehogeschool in Gent. Als doel heb ik voor ogen nieuwe webtechnologieën te leren en te gebruiken om projecten te optimaliseren.</p>
             </div>
             <div className="row">
                 <div className="col-12 about_title">
