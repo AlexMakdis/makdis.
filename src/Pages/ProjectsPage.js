@@ -35,6 +35,15 @@ function Project() {
                     <hr/>
                     </div>
                     <div className="col-12">
+                      <a href="https://refuway.vercel.app/" rel="noreferrer" target="_blank"><div className="col-12 project">
+                     <div className="project_background"><div className="refuway"><br/></div></div>
+                     <div className="project_info">
+                       <h1>RefuWay</h1>
+                       <p className="project_tools">// Next.js </p>
+                       <p className="project_description">Eindwerk: Een site voor Nieuwkomers, erkende vluchtelingen, subsidiaire beschermden, NBM... </p>
+                     </div>
+                    </div></a></div>
+                    <div className="col-12">
                     <a href="https://pgmgent-1920-students.github.io/eindwerk-AlexMakdis/" rel="noreferrer" target="_blank"><div className="col-12 project">
                      <div className="project_background"><div className="pablo"><br/></div></div>
                      <div className="project_info">

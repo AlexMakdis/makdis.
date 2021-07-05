@@ -39,21 +39,31 @@
         color: $purple;
         transition: all .4s ease-out;
     }
-    .pablo,.pgm,.sock{
+    .pablo,.pgm,.sock,.refuway{
         transform: scale(1.2);
         transition: all .4s ease-out;
     }
     .project_background{
         box-shadow: 0px 0px 15px 3px $light;
         transition: all .4s ease-out;
+        z-index: 1;
     }
 }
 
+.refuway{
+    background-image: url('../../img/wizard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 112px;
+    height: 126.5px;
+    transition: all .4s ease-out;
+    z-index: 2;
+}
 .pablo{
     background-image: url('../../img/pablo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 103px;
+    width: 112px;
     height: 126.5px;
     transition: all .4s ease-out;
 }
@@ -63,14 +73,14 @@
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    width: 103px;
+    width: 112px;
     height: 126.5px;
     transition: all .4s ease-out;
 }
 .sock{
     svg{
         color: $light;
-        width: 103px;
+        width: 112px;
         height: 100%;
     }
     transition: all .4s ease-out;
