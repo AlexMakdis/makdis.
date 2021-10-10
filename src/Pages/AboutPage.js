@@ -31,7 +31,7 @@ function About() {
                 <div className="home_button about_button"><a href={Pdf} download={Pdf}><button><p>curriculum vitae </p><BiDownload/></button></a></div>
             </div>
             <div className="about_me">
-                <p>Ik ben een Front-end Development student aan Arteveldehogeschool in Gent. Als doel heb ik voor ogen nieuwe webtechnologieën te leren en te gebruiken om projecten te optimaliseren.</p>
+                <p>Afgestudeerd in Graduaat Programmeren Arteveldehogeschool te Gent. Leergierig en enthousiast om de werkwereld te betreden.</p>
             </div>
             <div className="row">
                 <div className="col-12 about_title">
@@ -42,13 +42,14 @@ function About() {
                         <p>CSS</p>
                         <p>JavaScript</p>
                         <p>Sass</p>
+                        <p>React</p>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about_skills">
-                        <p>React</p>
                         <p>React-native</p>
                         <p>GraphQl</p>
                         <p>MongoDB</p>
-                        <p>PHP</p>                
+                        <p>PHP</p>
+                        <p>Wordpress</p>            
                     </div>
                 <div className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 about_skills">
                         <p>SQL</p>
