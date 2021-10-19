@@ -39,7 +39,7 @@
         color: $purple;
         transition: all .4s ease-out;
     }
-    .pablo,.pgm,.sock,.refuway{
+    .pablo,.pgm,.sock,.refuway, .riness{
         transform: scale(1.2);
         transition: all .4s ease-out;
     }
@@ -63,6 +63,16 @@
     background-image: url('../../img/pablo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 112px;
+    height: 126.5px;
+    transition: all .4s ease-out;
+}
+.riness{
+    background-image: url('../../img/ring.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
     width: 112px;
     height: 126.5px;
     transition: all .4s ease-out;

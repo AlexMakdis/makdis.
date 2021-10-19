@@ -44,6 +44,15 @@ function Project() {
                      </div>
                     </div></a></div>
                     <div className="col-12">
+                    <a href="http://riness.flywheelsites.com/" rel="noreferrer" target="_blank"><div className="col-12 project">
+                     <div className="project_background"><div className="riness"><br/></div></div>
+                     <div className="project_info">
+                       <h1>Riness</h1>
+                       <p className="project_tools">// Wordpress / PHP </p>
+                       <p className="project_description">Webshop om ringen te kopen<br></br>Gebruikersnaam: rinessWordpress <br></br>Wachtwoord: rinessDemo</p>
+                     </div>
+                </div></a></div>
+                    <div className="col-12">
                     <a href="https://pgmgent-1920-students.github.io/eindwerk-AlexMakdis/" rel="noreferrer" target="_blank"><div className="col-12 project">
                      <div className="project_background"><div className="pablo"><br/></div></div>
                      <div className="project_info">
