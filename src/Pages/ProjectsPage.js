@@ -25,7 +25,7 @@ function Project() {
             <div className="home_intro_container animate__animated animate__fadeInLeft">
             
             <div className="home_intro_name project_purple">
-                <p>Dit zijn een paar van mijn projecten die ik heb ontwikkeld.</p>
+                <p>Dit zijn een paar van mijn projecten die ik zelf heb ontwerpen en ontwikkeld.</p>
             </div>
             <div className="about_me project_grey">
                 <p>//Arteveldehogeschool</p>
@@ -62,12 +62,12 @@ function Project() {
                      </div>
                 </div></a></div>
                 <div className="col-12">
-                <a href="https://sosocksy.netlify.app/" rel="noreferrer" target="_blank"><div className="col-12 project">
+                <a href="#" rel="noreferrer"><div className="col-12 project">
                      <div className="project_background"><div className="sock"><FaSocks/></div></div>
                      <div className="project_info">
                        <h1>So Socksy</h1>
                        <p className="project_tools">// MongoDB / GrapghQl / Apollo / React </p>
-                       <p className="project_description">Webshop om comfy sokken te kopen!</p>
+                       <p className="project_description">Webshop om comfy sokken te kopen!<br></br>Database uitgeschakeld.</p>
                      </div>
                 </div></a></div>
             </div>
