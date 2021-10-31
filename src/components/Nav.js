@@ -34,6 +34,11 @@ function Nav() {
                     </NavLink>
                 </li>
                 <li className="nav_links_logo">
+                    <NavLink exact to="/timeline" activeClassName="nav_links_active">
+                        <h1>timeline( )</h1>
+                    </NavLink>
+                </li>
+                <li className="nav_links_logo">
                     <NavLink exact to="/projects" activeClassName="nav_links_active">
                         <h1>projects( )</h1>
                     </NavLink>
