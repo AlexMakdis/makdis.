@@ -36,7 +36,7 @@ function Timeline() {
                   <div className="timeline_content">
                     <h3 className="date">6 oktober, 2019</h3>
                     <h1>Proclamatie</h1>
-                    <p>3 jaar afgewerkt in glorie! Bachelor Sociaal Werk diplomas is binnen!</p>
+                    <p>3 jaar afgewerkt in glorie! Bachelor Sociaal Werk diploma is binnen!</p>
                   </div>
                 </li>
                 <li className="delay animate__animated animate__fadeIn">

@@ -25,7 +25,7 @@ function Project() {
             <div className="home_intro_container animate__animated animate__fadeInLeft">
             
             <div className="home_intro_name project_purple">
-                <p>Dit zijn een paar van mijn projecten die ik zelf heb ontwerpen en ontwikkeld.</p>
+                <p>Dit zijn een paar van mijn projecten die ik zelf heb ontworpen en ontwikkeld.</p>
             </div>
             <div className="about_me project_grey">
                 <p>//Arteveldehogeschool</p>
@@ -40,7 +40,7 @@ function Project() {
                      <div className="project_info">
                        <h1>RefuWay</h1>
                        <p className="project_tools">// Next.js </p>
-                       <p className="project_description">Eindwerk: Een site voor Nieuwkomers, erkende vluchtelingen, subsidiaire beschermden, NBM... </p>
+                       <p className="project_description">Eindwerk: Een site voor nieuwkomers, erkende vluchtelingen, subsidiaire beschermden, NBM... </p>
                      </div>
                     </div></a></div>
                     <div className="col-12">
